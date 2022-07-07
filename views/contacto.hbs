@@ -1,0 +1,37 @@
+<main class="holder">
+        <div class="columna left">
+            <h2>Contacto rapido</h2>
+            <form action="/contacto" method="post" class="formulario">
+                <p>
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre">
+                </p>
+                <p>
+                    <label for="">Email</label>
+                    <input type="text" name="email">
+                </p>
+                <p>
+                    <label for="">Telefono</label>
+                    <input type="text" name="tel">
+                </p>
+                <p>
+                    <label for="">Comentarios</label>
+                    <textarea name="comentario"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
+            <p>{{message}}</p>
+        </div>
+        <div class="columna right">
+            <h2>Otras vias de contacto</h2>
+            <p>
+                Con nosotros usando los siguientes medios:</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/aerolineas.argentinas/">Facebook</a></li>
+                    <li><a href="https://twitter.com/aerolineas_ar">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/aerolineas_argentinas/">Instagram</a></li>
+                </ul>
+        </div>
+    </main>

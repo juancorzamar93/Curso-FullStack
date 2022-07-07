@@ -1,0 +1,19 @@
+<h2>BIENVENIDO AL SISTEMA DE GESTIÓN</h2>
+
+<div class="container" style="margin: 100px;">
+    <div class="row">
+        <form action="/admin/login" method="post">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="usuario" name="usuario">
+            </div>
+             <div class="mb-3">
+              <input type="text" class="form-control" placeholder="contraseña" name="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+        {{#if error}}
+        <p>usuario no existe</p>
+        {{/if}}
+    </div>
+</div>
+

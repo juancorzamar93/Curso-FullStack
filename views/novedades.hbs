@@ -1,0 +1,19 @@
+<section class="img">
+    <img src="images/novedades.png" alt="imagen novedades">
+</section>
+
+<main class="holder">
+        {{#each novedad}}
+        <div class="novedad">
+            <h3>{{titulo}}</h3>
+            <h3 class="cursiva">{{subtitulo}}</h3>
+            {{#if imagen}}
+            <img src="{{imagen}}" alt="{{titulo}}">            
+            {{/if}}
+            <p class="negra">{{cuerpo}}</p>
+          
+            <hr/>
+        </div>
+        {{/each}}
+        
+</main>

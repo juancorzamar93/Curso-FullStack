@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioTech</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/biotech.css" >
+    <link rel="stylesheet" href="stylesheets/normalize.css" >
+</head>
+  <body>
+    <header>
+        <div>
+            <img src="images/logo.png"  width="100" alt="bioTech">
+            <h1>BioTech Semillas</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="holder">
+            <li><a class="{{#if isHome}}activo{{/if}}" href="/">Home</a></li>
+            <li><a class="{{#if isEmpresa}}activo{{/if}}" href="/empresa">Empresa</a></li>
+            <li><a class="{{#if isNosotros}}activo{{/if}}" href="/nosotros">Nosotros</a></li>
+            <li><a class="{{#if isNovedades}}activo{{/if}}" href="/novedades">Novedades</a></li>
+            <li><a class="{{#if isContacto}}activo{{/if}}" href="/contacto">Contacto</a></li>
+        </ul>   
+                 
+    </nav>
+    {{{body}}}
+     <footer>
+        <div class="diseño">
+            <h3>Alumno: Cortez Zamar, Juan Marcos</h3>
+            <p>Diseñado por CorZamar</p>
+
+        </div>
+    </footer>
+  </body>
+</html>
