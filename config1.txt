@@ -1,0 +1,5 @@
+CLEARDB_DATABASE_URL: 
+DB name: 	
+Host: 		
+Password: 	
+User: 		
